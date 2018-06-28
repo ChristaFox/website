@@ -4,11 +4,11 @@
     --colorLtPink: #DDBC95;
     --colorMain: #B38867;
     --colorMainLighter: #C59B7B;
-    --colorMainDarker: rgb(141, 98, 65);
+    --colorMainDarker: #8D6941;
     --colorMainLight: #CDCDC0;
     --colorMainDark: #626D71;
-    --colorGray: #b3b9bc;
-    --colorLighterGray: #d2dadd;
+    --colorGray: #B3B9BC;
+    --colorLighterGray: #D2DADD;
 }
 
 #fox {
@@ -37,7 +37,7 @@ image {
 }
 
 .homediv {
-    background-image: url("./../images/bamboo-mac.jpg");
+    background-image: url("./../resources/images/bamboo-mac.jpg");
     width: 1281px;
     height: 800px;
     /* position: fixed; */
