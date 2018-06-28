@@ -186,8 +186,8 @@ button{
     border-radius: 50%;
   
     position: absolute;
-    bottom: -35px;
-    left: -35px;
+    top: -150px;
+    left: -150px;
   }
   
   .hamburger__button{
@@ -280,8 +280,8 @@ button{
   
   .js-menu_activated .menu{
     will-change: opacity;
-    transition-duration: 3s;
-    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-delay: .2s;
   }
   
   .hamburger:before{
@@ -292,7 +292,7 @@ button{
   }
   
   .js-menu_activated .hamburger:before{
-    transition-duration: 2s;
+    transition-duration: .7s;
   }
   
   .hamburger__button:before, .hamburger__button:after{
