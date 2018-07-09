@@ -11,6 +11,26 @@
     --colorLighterGray: #D2DADD;
   }
 
+  .about-background {
+    background-image: url(./../resources/images/hello.jpg);
+    width: 2000px;
+    height: 1500px;
+    background-position: fixed;
+    align-content: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .page {
+    background-image: url("./../resources/images/cacti-and-comp.png");
+    width: 100%;
+    /* background-size: 100% 100%; */
+    background-position: fixed;
+    align-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
   #fox {
     height: 70px;
     width: 70px;
