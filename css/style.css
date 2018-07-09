@@ -11,6 +11,24 @@
     --colorLighterGray: #D2DADD;
   }
 
+  .about {
+    -webkit-animation: cssAnimation 3.6002s 16 ease-in-out;
+    -moz-animation: cssAnimation 3.6002s 16 ease-in-out;
+    -o-animation: cssAnimation 3.6002s 16 ease-in-out;
+    }
+    @-webkit-keyframes cssAnimation {
+    from { -webkit-transform: rotate(360deg) scale(0.1) skew(1deg) translate(0px); }
+    to { -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+    }
+    @-moz-keyframes cssAnimation {
+    from { -moz-transform: rotate(360deg) scale(0.1) skew(1deg) translate(0px); }
+    to { -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+    }
+    @-o-keyframes cssAnimation {
+    from { -o-transform: rotate(360deg) scale(0.1) skew(1deg) translate(0px); }
+    to { -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+    }
+
   .w3-content w3-display-container {
     display: flex;
     max-width: 200px;
