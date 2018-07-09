@@ -11,6 +11,11 @@
     --colorLighterGray: #D2DADD;
   }
 
+  .w3-content w3-display-container {
+    display: flex;
+    max-width: 200px;
+  }
+
   .about-background {
     background-image: url(./../resources/images/hello.jpg);
     width: 2000px;
